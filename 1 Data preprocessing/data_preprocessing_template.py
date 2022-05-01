@@ -26,3 +26,18 @@ imputer = SimpleImputer(missing_values = np.nan, strategy = "mean")
 # taking indexs 1 upto 2 (1:3)
 imputer = imputer.fit(X[:, 1:3])
 X[:, 1:3] = imputer.transform(X[:, 1:3])
+
+
+# Encoding categorical data
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+labelEncoder_X = LabelEncoder()
+X[:, 0] = labelEncoder_X.fit_transform(X[:, 0])
+
+# Country column
+ct = ColumnTransformer([("Country", OneHotEncoder(), [0])], remainder = 'passthrough')
+X = ct.fit_transform(X)
+
+# Dependent column
+labelEncoder_Y = LabelEncoder()
+Y = labelEncoder_Y.fit_transform(Y)
