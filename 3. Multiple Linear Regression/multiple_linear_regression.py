@@ -54,27 +54,52 @@ y_pred = regressor.predict(X_test)
 
 
 # Building the optimal model using backward elimination
-import statsmodels.formula.api as sm
+import statsmodels.api as sm
 X = np.append(arr = np.ones((50,1)).astype(int), values = X, axis = 1)
+X_opt = np.array(X[:, [0, 1, 2, 3, 4, 5]], dtype=float)
+
+# Ordinary Least Squares
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+
+# Check the summary and remove the highest significant variable from the array
+regressor_OLS.summary()
+
+# x2 was the highest on this check (Always check the index from original X, not X_opt)
+X_opt = np.array(X[:, [0, 1, 3, 4, 5]], dtype=float)
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 
 
+regressor_OLS.summary()
 
 
+# x1 was the least on this check
+X_opt = np.array(X[:, [0, 3, 4, 5]], dtype=float)
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 
 
+regressor_OLS.summary()
 
 
+# x4 was the least on this check
+X_opt = np.array(X[:, [0, 3, 4, 5]], dtype=float)
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 
 
+regressor_OLS.summary()
 
 
+# x4 was the least on this check
+X_opt = np.array(X[:, [0, 3, 5]], dtype=float)
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
+
+regressor_OLS.summary()
 
 
+# x5 was the least on this check
+X_opt = np.array(X[:, [0, 3]], dtype=float)
+regressor_OLS = sm.OLS(endog = y, exog = X_opt).fit()
 
-
-
-
-
+regressor_OLS.summary()
 
 
 
