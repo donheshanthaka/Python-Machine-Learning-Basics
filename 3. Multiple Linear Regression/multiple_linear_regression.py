@@ -23,6 +23,20 @@ X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 4].values
 
 
+# Encoding categorical data
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+labelEncoder_X = LabelEncoder()
+X[:, 3] = labelEncoder_X.fit_transform(X[:, 3])
+
+# State column
+ct = ColumnTransformer([("State", OneHotEncoder(), [3])], remainder = 'passthrough')
+X = ct.fit_transform(X)
+
+
+# Avoiding the Dummy Variable Trap
+
+
 # Splitting the dataset into the Training and Test set
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
