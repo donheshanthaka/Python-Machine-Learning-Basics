@@ -35,7 +35,7 @@ X = ct.fit_transform(X)
 
 
 # Avoiding the Dummy Variable Trap
-
+X = X[:, 1:]
 
 # Splitting the dataset into the Training and Test set
 from sklearn.model_selection import train_test_split
