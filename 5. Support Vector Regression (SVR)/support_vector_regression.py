@@ -32,8 +32,10 @@ y = dataset.iloc[:, 2].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)"""
 
 
-# Fitting the regression model to the dataset
-# Create your regressor here
+# Fitting the SVR model to the dataset
+from sklearn.svm import SVR
+regressor = SVR(kernel = "rbf")
+regressor.fit(X, y)
 
 
 # Predicting a new result
@@ -41,11 +43,11 @@ y_pred = regressor.predict(np.array([6.5]).reshape(1, 1))
 y_pred = regressor.predict([[6.5]])
 
 
-# Visualizing the regression results
+# Visualizing the SVR regression results
 
 plt.scatter(X, y, color = "red")
 plt.plot(X, regressor.predict(X), color = "blue")
-plt.title("Truth or Bluff (Regression Model)")
+plt.title("Truth or Bluff (SVR)")
 plt.xlabel("Position level")
 plt.ylabel("Salary")
 plt.show()
