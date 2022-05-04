@@ -80,7 +80,8 @@ lin_reg.predict(np.array([6.5]).reshape(1, 1))
 
 
 # Predicting a new result with polynomial regression
-
+lin_reg_2.predict(poly_reg.fit_transform(np.array([6.5]).reshape(1, 1)))
+lin_reg_2.predict(poly_reg.fit_transform([[6.5]]))
 
 
 
