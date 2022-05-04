@@ -27,3 +27,11 @@ y = dataset.iloc[:, 2].values
 # No dataset splitting since a small number of samples are used
 """from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)"""
+
+
+# Fitting linear regression to the dataset
+from sklearn.linear_model import LinearRegression
+lin_reg = LinearRegression()
+lin_reg.fit(X, y)
+
+# Fitting polynomial regression to the dataset
