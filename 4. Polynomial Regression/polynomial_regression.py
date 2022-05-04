@@ -58,7 +58,7 @@ plt.ylabel("Salary")
 plt.show()
 
 
-# Visualzing the polynomial regression results
+# Visualizing the polynomial regression results
 
 # Create a vector of X with more resolution
 X_grid = np.arange(min(X), max(X), 0.1)
@@ -75,7 +75,11 @@ plt.show()
 
 
 
+# Predicting a new result with linear regression
+lin_reg.predict(np.array([6.5]).reshape(1, 1))
 
+
+# Predicting a new result with polynomial regression
 
 
 
