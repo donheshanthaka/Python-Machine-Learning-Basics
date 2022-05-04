@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed May  4 08:03:38 2022
+Created on Wed May  4 13:03:49 2022
 
 @author: Don Hesha
 """
+
+# Support Vector Regression
+
 
 # Regression Template
 
@@ -46,29 +49,3 @@ plt.title("Truth or Bluff (Regression Model)")
 plt.xlabel("Position level")
 plt.ylabel("Salary")
 plt.show()
-
-
-
-# Visualizing the regression results (For higher resolution and smoother curve)
-
-# Create a vector of X with more resolution
-X_grid = np.arange(min(X), max(X), 0.1)
-
-# Reshaping the newly created vector to a matirx
-X_grid = X_grid.reshape((len(X_grid), 1))
-
-plt.scatter(X, y, color = "red")
-plt.plot(X_grid, regressor.predict(X_grid), color = "blue")
-plt.title("Truth or Bluff (Regression Model)")
-plt.xlabel("Position level")
-plt.ylabel("Salary")
-plt.show()
-
-
-
-
-
-
-
-
-

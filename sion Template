@@ -1,0 +1,191 @@
+[33mcommit b6f24a25c52013891bad8bfd933661c95009287d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;33mtag: Polynomial_Regression[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 08:26:02 2022 +0530
+
+    Creation of the regression template
+
+[33mcommit b7f54f99ae1ba99f4ec722a44f65bf992120d043[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 08:01:17 2022 +0530
+
+    Predicting result with polynomial regression
+
+[33mcommit 8854e07669179234b13f229982f089084b470490[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 07:54:38 2022 +0530
+
+    Predicting result with linear regression
+
+[33mcommit 3f4ca74198c469095669ea06e8497f1ee21fcabc[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 07:44:56 2022 +0530
+
+    Visualizing the polynomial regression results
+
+[33mcommit 3b80594592e3a6bb2469f92109314ca84bf4f054[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 07:21:56 2022 +0530
+
+    Visualzing the linear regression results
+
+[33mcommit abbcf304992d3f094ca58f50f4164b68f36a9943[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 07:14:46 2022 +0530
+
+    Creation of the new linear regression model with polynomial features
+
+[33mcommit 8a736cc939264b6108028bfe9e768247536a184d[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 07:00:24 2022 +0530
+
+    Creation of the simple linear regression model
+
+[33mcommit fe94253aa9096b4d3886f14129bf6715859d56e5[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 04:13:21 2022 +0530
+
+    Importing the dataset
+
+[33mcommit 7baf6ae01008164725bee9ef88651f0bbe57e7dd[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 03:36:18 2022 +0530
+
+    Setting up the polynomial regression project
+
+[33mcommit 4620d003125af8365c161ec497ab56718522fc04[m[33m ([m[1;33mtag: Multiple-Linear-Regression[m[33m)[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 01:50:33 2022 +0530
+
+    Finalized the implementation of backward elimination
+
+[33mcommit 7de65d2397bed05124f0ead544f125de89d97540[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Wed May 4 00:20:21 2022 +0530
+
+    Setting up backward elimination model
+
+[33mcommit 1e7349c2d9e5ef24b569826fa2b28252647614ac[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 21:59:43 2022 +0530
+
+    Predicitng the test results
+
+[33mcommit 30eae53b3cf034e11dee92af0726917f8eb2cd25[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 21:45:26 2022 +0530
+
+    Fitting the multiple linear regression to the training set
+
+[33mcommit 0a6ebc66e57d03a8f804d72384a54a1191e229db[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 21:40:39 2022 +0530
+
+    Splitting the dataset
+
+[33mcommit ffda9f0b6fa06ee5f735ab195d56703713cf6f33[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 21:33:33 2022 +0530
+
+    Encoding the categorical data
+
+[33mcommit 12d70eedf7c5b9a1e3c674338971b2f01dd07822[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 21:19:07 2022 +0530
+
+    Getting the independent and dependent variables
+
+[33mcommit 2353a4765093451e9498f83803a9c6beb8864517[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 21:16:47 2022 +0530
+
+    Importing the dataset
+
+[33mcommit 3512da008cbfdeefab5ff840ea8089bbd8660907[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 21:09:57 2022 +0530
+
+    Setting up the multiple linear regression project folder
+
+[33mcommit 75ce7b27d4babc82e908665dc86ebee655547a54[m[33m ([m[1;33mtag: Simple_Linear_Regression[m[33m)[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Tue May 3 07:15:49 2022 +0530
+
+    Visualized the train and test set results
+
+[33mcommit ff3021ab35c042c836a658b37ae25ba519de0a14[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 23:33:06 2022 +0530
+
+    Predicting the test set results
+
+[33mcommit c16c90dd38734bcb3b906a8f9f9ecfdcfc127fda[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 23:23:22 2022 +0530
+
+    Fitting simple linear regression to the training set
+
+[33mcommit 246fcb3f99361107b105a92a3782392b41aa9d5e[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 23:10:46 2022 +0530
+
+    Importing the dataset and splitting the test and train sets
+
+[33mcommit 49aaef2b04bcc9913338270bc8f912edf7ddc040[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 22:19:47 2022 +0530
+
+    Setting up the simple linear regression code and dataset
+
+[33mcommit a473f3ae0529ec33054e5e2583043107ea038f7d[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 04:30:02 2022 +0530
+
+    Finalized the data preprocessing template
+
+[33mcommit a5c1f110f2e65a59f0c02ff2cb672c459f758751[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 04:22:07 2022 +0530
+
+    Feature scalling
+
+[33mcommit 89ff50b10bc428e1f69ac939f7fd107837bb4af8[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 03:06:45 2022 +0530
+
+    splitting dataset into training and test set
+
+[33mcommit a1de4710748787a32d9b725353917482aae5e1bf[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Mon May 2 02:46:28 2022 +0530
+
+    Conversion of categorical data into numerical values
+
+[33mcommit 88e9d8595480376c5734f358adf54d2c8bbf8090[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Sun May 1 23:22:17 2022 +0530
+
+    Taking care of the missing data
+
+[33mcommit a9d33b697082b3d6a64af88bdf37ef70310cabf3[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Sun May 1 23:04:17 2022 +0530
+
+    Importing the dataset
+
+[33mcommit e673eba3140a65c4e7c57692b1fdad2db33b07ad[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Sun May 1 22:50:50 2022 +0530
+
+    Importing the libraries
+
+[33mcommit 5adf74dbf18382afd6f5b56da1b8b5f7c9a85e38[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Sun May 1 22:40:40 2022 +0530
+
+    Arranging the datasets for preprocessing
+
+[33mcommit 3d76fa0f5a10db8ec31770d6a7b8965d41f80f2a[m
+Author: Don Heshanthaka <heshanthaka007@gmail.com>
+Date:   Sun May 1 22:32:11 2022 +0530
+
+    Initial commit
