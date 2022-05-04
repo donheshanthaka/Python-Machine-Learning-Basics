@@ -45,7 +45,7 @@ regressor = DecisionTreeRegressor(random_state = 0)
 regressor.fit(X, y)
 
 # Predicting a new result
-y_pred = regressor.predict(np.array([6.5]).reshape(1, 1))
+#y_pred = regressor.predict(np.array([6.5]).reshape(1, 1))
 y_pred = regressor.predict([[6.5]])
 
 
