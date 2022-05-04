@@ -35,3 +35,31 @@ lin_reg = LinearRegression()
 lin_reg.fit(X, y)
 
 # Fitting polynomial regression to the dataset
+
+# Converted the original matrix of X to new maxtrix of features containing the original independent position
+# ... levels and its associated polynomial terms
+from sklearn.preprocessing import PolynomialFeatures
+poly_reg = PolynomialFeatures(degree = 2)
+X_poly = poly_reg.fit_transform(X)
+
+# Creation of a new linear regression model with new X_poly matrix
+lin_reg_2 = LinearRegression()
+lin_reg_2.fit(X_poly, y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
