@@ -49,10 +49,16 @@ regressor.fit(X, y)
 y_pred = regressor.predict([[6.5]])
 
 
-# Visualizing the Decision Tree Regression results
+# Visualizing the regression results (For higher resolution and smoother curve)
+
+# Create a vector of X with more resolution
+X_grid = np.arange(min(X), max(X), 0.01)
+
+# Reshaping the newly created vector to a matirx
+X_grid = X_grid.reshape((len(X_grid), 1))
 
 plt.scatter(X, y, color = "red")
-plt.plot(X, regressor.predict(X), color = "blue")
+plt.plot(X_grid, regressor.predict(X_grid), color = "blue")
 plt.title("Truth or Bluff (Decision Tree Regression Model)")
 plt.xlabel("Position level")
 plt.ylabel("Salary")
