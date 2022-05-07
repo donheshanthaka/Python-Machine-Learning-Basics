@@ -47,7 +47,6 @@ regressor.fit(X, y)
 
 
 # Predicting a new result
-y_pred = regressor.predict(np.array([6.5]).reshape(1, 1))
 y_pred = regressor.predict([[6.5]])
 
 
@@ -55,7 +54,7 @@ y_pred = regressor.predict([[6.5]])
 # Visualizing the regression results (For higher resolution and smoother curve)
 
 # Create a vector of X with more resolution
-X_grid = np.arange(min(X), max(X), 0.1)
+X_grid = np.arange(min(X), max(X), 0.01)
 
 # Reshaping the newly created vector to a matirx
 X_grid = X_grid.reshape((len(X_grid), 1))
