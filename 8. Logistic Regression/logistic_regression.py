@@ -5,6 +5,7 @@ Created on Sun May  8 05:54:37 2022
 @author: Don Hesha
 """
 
+# Logistic Regression 
 
 # Libraries
 import numpy as np
@@ -33,3 +34,29 @@ from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
+
+
+# Fitting the logistic regression to the training set
+from sklearn.linear_model import LogisticRegression
+classifier = LogisticRegression(random_state = 0)
+classifier.fit(X_train, y_train)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
