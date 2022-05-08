@@ -42,7 +42,7 @@ y_train = sc_y.fit_transform(y_train)
 
 # Fitting the Random Forest Regression model to the dataset
 from sklearn.ensemble import RandomForestRegressor
-regressor = RandomForestRegressor(n_estimators = 10, random_state = 0)
+regressor = RandomForestRegressor(n_estimators = 300, random_state = 0)
 regressor.fit(X, y)
 
 
