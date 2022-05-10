@@ -38,7 +38,7 @@ X_test = sc_X.transform(X_test)
 
 # Fitting the SVM to the training set
 from sklearn.svm import SVC
-classifier = SVC(kernal = "Linear", random_state = 0)
+classifier = SVC(kernel = "linear", random_state = 0)
 classifier.fit(X_train, y_train)
 
 
