@@ -38,7 +38,9 @@ X_test = sc_X.transform(X_test)
 
 
 # Fitting the Naive Bayes to the training set
-# Create the classifier here
+from sklearn.naive_bayes import GaussianNB
+classifier = GaussianNB()
+classifier.fit(X_train, y_train)
 
 
 # Predicting the test set results
