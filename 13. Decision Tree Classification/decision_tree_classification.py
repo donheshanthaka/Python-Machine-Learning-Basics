@@ -37,7 +37,9 @@ X_test = sc_X.transform(X_test)
 
 
 # Fitting the classifier to the training set
-
+from sklearn.tree import DecisionTreeClassifier
+classifier = DecisionTreeClassifier(criterion = "entropy", random_state = 0)
+classifier.fit(X_train, y_train)
 
 
 # Predicting the test set results
